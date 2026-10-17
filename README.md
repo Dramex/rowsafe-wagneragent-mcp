@@ -547,7 +547,7 @@ Database protection and managed database operations for DevOps teams through loc
 | **Maintainer** | RowSafe (Official) |
 | **What it does** | Inspect database health, manage backups and recovery workflows across supported engines, and provision RowSafe Cloud servers. |
 | **Docs** | [MCP reference](https://rowsafe.sh/docs/reference/mcp) |
-| **Requires** | A RowSafe account; CLI login or `ROWSAFE_API_KEY` for local `rowsafe mcp` (stdio), or OAuth/API-key authentication for `https://api.rowsafe.sh/mcp` (Streamable HTTP). |
+| **Requires** | CLI login or `ROWSAFE_API_KEY` for local `rowsafe mcp` (stdio), or OAuth/API-key authentication for `https://api.rowsafe.sh/mcp` (Streamable HTTP). |
 | **Note** | The agent, CLI and MCP server are Apache-2.0; the hosted RowSafe service is separate. Available actions depend on credentials, permissions and transport configuration. |
 
 ### Other Platforms
